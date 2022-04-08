@@ -222,6 +222,116 @@ main{
 	cursor:pointer;
 }
 
+/****************OTHER PAGES**************************/
+.page-title{
+	width:100%;
+	
+	background-color: #f4584b;
+	
+}
+
+
+.page-title-cont{
+	display: flex;
+	flex-wrap: wrap;
+	width: 960px;
+	
+	margin:auto;
+	
+	justify-content: flex-start;
+}
+
+.page-title-text{
+	color:#f4f4f4;
+	font-family: tomarik-poster, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+	
+	padding: 20px 0;
+}
+
+.about-main{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0;
+}
+
+.about-cont{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 960px;
+	
+	margin:auto;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.about-team-cont{
+	width:960px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin:auto;
+	
+	padding:100px 0;
+	
+}
+
+.about-members-cont{
+	width:960px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin:auto;
+	
+	padding:100px 0;
+}
+
+
+.member-profile-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.member-profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contrib-cont{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+}
+
+.about-foursquare-cont{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 960px;
+	
+	margin:auto;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+/****************OTHER PAGES END**************************/
+
 .gallery-cont{
 	background-color: #f4f4f4;
 	width:960px;
