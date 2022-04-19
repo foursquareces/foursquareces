@@ -61,6 +61,10 @@ body {
 	max-width:100%;
 	background-color:#0f0f0f;
 	margin: 0;
+	
+
+ 	position: sticky;
+  	top: 0;
 }
 
 .header-content{
@@ -251,6 +255,10 @@ main{
 	padding: 20px 0;
 }
 
+
+
+/****************ABOUT PAGE**************/
+
 .about-main{
 	background-color: #f4f4f4;
 	width: 100%;
@@ -260,10 +268,6 @@ main{
 .about-cont{
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	width: 960px;
-	
-	margin:auto;
 	
 	justify-content: center;
 	align-items: center;
@@ -280,7 +284,26 @@ main{
 	margin:auto;
 	
 	padding:100px 0;
+}
+
+.centered-paragraph{
+	width:920px;
 	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	line-height: 40px;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 24px;
+	
+	margin-top:0;
+}
+
+
+.about-members-bg{
+	width:100%;
+	background-color:#f9dbdd;
 }
 
 .about-members-cont{
@@ -291,43 +314,136 @@ main{
 	justify-content: center;
 	align-items: center;
 	
-	margin:auto;
-	
 	padding:100px 0;
+	
+	margin:auto;
 }
-
 
 .member-profile-cont{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
 .member-profile{
+	width:250px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	
+	padding:10px 115px;
+}
+
+.member-profile:first-of-type{
+	padding: 10px 360px;
+}
+
+.member-profile-pic{
+	width:75px;
+	border-radius: 15px;
+	object-fit:cover;
+}
+
+.member-name{
+	padding: 15px 0 0 0;
+	margin:0;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	line-height: 40px;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 24px;
+}
+
+.member-position{
+	padding:0;
+	margin:0;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 16px;
+}
+
+.member-position-special{
+	padding:0;
+	margin:0;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	line-height: 25px;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 16px;
 }
 
 .contrib-cont{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	
+	margin: auto;
+	margin-top: 50px;
 }
+
+.section-title-special{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	letter-spacing: 10px;
+	
+	color: #0f0f0f;
+	font-size: 45px;
+	
+	margin:0 0 50px 0;
 }
+
 
 .about-foursquare-cont{
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	width: 960px;
 	
 	margin:auto;
 	
-	justify-content: center;
-	align-items: center;
+	padding:100px 0;
+}
+
+.about-foursquare-logo{
+	width:75px;
+	
+	margin:0 0 50px 0;
+}
+
+.citation{
+	width:920px;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 14px;
+}
+
+.citation::before{
+	content:"\0028";
+	margin: 0 3px 0 0;
+}
+
+.citation::after{
+	content:"\0029";
+	margin: 0 0 0 3px;
 }
 
 /****************OTHER PAGES END**************************/
