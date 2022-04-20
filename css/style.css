@@ -252,7 +252,8 @@ main{
 	font-style: normal;
 	font-size: 50px;
 	
-	padding: 20px 0;
+	padding: 10px 0;
+	margin:30px 0 20px 0;
 }
 
 
@@ -531,6 +532,319 @@ main{
 	font-size: 16px;
 }
 
+
+
+/****************RESOURCES MAIN PAGE**************/
+
+.tags-main{
+	width:100%;
+	background-color:#e5e5e5;
+	padding:40px 0;
+	
+	box-shadow: 0 10px 30px #bbb;
+}
+
+.tags-cont{
+	width:960px;
+	margin:auto;
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tags-title{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	letter-spacing: 0;
+	
+	color: #4b4b4b;
+	font-size: 18px;
+	
+	margin:0 0 20px 0;
+}
+
+.tags-button-cont{
+	display:flex;
+	justify-content: space-between;
+	padding:0 20px;
+}
+
+.tags-button-red{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:210px;
+	height: 50px;
+	background-color:#f4584b;
+	
+	object-fit:cover;
+	border-radius: 15px;
+	margin:0 10px;
+}
+
+.tags-button-yellow{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:210px;
+	height: 50px;
+	background-color:#ffd401;
+	
+	object-fit:cover;
+	border-radius: 15px;
+	
+	margin:0 10px;
+}
+
+.tags-button-blue{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:210px;
+	height: 50px;
+	background-color:#0669ba;
+	
+	object-fit:cover;
+	border-radius: 15px;
+	
+	margin:0 10px;
+}
+
+.tags-button-purple{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:210px;
+	height: 50px;
+	background-color:#805d9d;
+	
+	object-fit:cover;
+	border-radius: 15px;
+	
+	margin:0 10px;
+}
+
+.tags-text{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	
+	color: #f4f4f4;
+	font-size: 24px;
+}
+
+.resources-bg{
+	margin:0;
+}
+
+#resources-lessons{
+	width:960px;
+	margin:auto;
+	padding:75px 0;
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.section-break-small{
+  	display: block;
+  	margin:0 auto;
+  	border-style: solid;
+  	border-width: 1px;
+}
+
+.type-section{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width:960px;
+	margin:auto;
+}
+
+.resources-type-title{
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+	margin:0 0 20px 0;
+}
+
+.resources-type{
+	padding:0;
+	margin:0;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 18px;
+}
+
+.see-all-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	width:100px;
+	height: 30px;
+	background-color: #ffd401;
+	object-fit:cover;
+	border-radius: 7.5px;
+	
+	margin: 0 0 0 20px;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	
+	color: #0f0f0f;
+	font-size: 16px;
+	
+}
+
+.see-all-button:hover{
+	background-color: #ffe473;
+	cursor:pointer;
+}
+
+.see-all-button:active{
+	width:96px;
+	height: 26px;
+	background-color: transparent;
+	border-color: #ffd401;
+	border-style: solid;
+	border-width: 2px;
+	color: #ffd401;
+	cursor:pointer;
+}
+
+.lesson-cont{
+	width:800px;
+	margin:auto;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	padding:20px 0;
+}
+
+.resources-file-text{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+	margin:0 auto 0 10px;
+	height:75px;
+}
+
+.resources-icon{
+	width:75px;
+}
+
+.file-title{
+	padding: 0;
+	margin:0;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 24px;
+}
+
+
+.file-description{
+	padding:0;
+	margin:0;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	
+	color: #0f0f0f;
+	font-size: 14px;
+}
+
+.download-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	width:200px;
+	height: 50px;
+	background-color: #ffd401;
+	object-fit:cover;
+	border-radius: 15px;
+	
+	margin: 0;
+	
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	
+	color: #0f0f0f;
+	font-size: 18px;
+	
+}
+
+.download-button:hover{
+	background-color: #ffe473;
+	cursor:pointer;
+}
+
+.download-button:active{
+	width:196px;
+	height: 46px;
+	background-color: transparent;
+	border-color: #ffd401;
+	border-style: solid;
+	border-width: 2px;
+	color: #ffd401;
+	cursor:pointer;
+}
+
+
+#resources-activities{
+	width:960px;
+	margin:auto;
+	padding:75px 0;
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#resources-media{
+	width:960px;
+	margin:auto;
+	padding:75px 0;
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#resources-trivia{
+	width:960px;
+	margin:auto;
+	padding:75px 0;
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.resources-big-icon{
+	width:150px;
+}
 /****************OTHER PAGES END**************************/
 
 .gallery-cont{
